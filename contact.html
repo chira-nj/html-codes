@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      /* General Styling for Contact Page */
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background: linear-gradient(to bottom, #f9f9f9, #e3e8ed);
+        color: #333;
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+      }
+
+      .contact-container {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 20px;
+        background-color: rgba(255, 255, 255, 0.8);
+        border-radius: 10px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        margin: 40px auto;
+        width: 80%;
+        max-width: 900px;
+      }
+
+      .contact-container h1 {
+        margin-bottom: 20px;
+        font-size: 2.5em;
+        color: #2d3e50;
+      }
+
+      .contact-details p {
+        font-size: 1.2em;
+        margin: 10px 0;
+      }
+
+      .social-links {
+        margin-top: 30px;
+      }
+
+      .social-links h2 {
+        margin-bottom: 15px;
+        font-size: 1.8em;
+        color: #2d3e50;
+      }
+
+      .social-links ul {
+        list-style: none;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+      }
+
+      .social-links ul li {
+        display: inline-block;
+      }
+
+      .social-links ul li a {
+        text-decoration: none;
+        color: #333;
+        font-size: 16px;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        transition: color 0.3s ease;
+      }
+
+      .social-links ul li a:hover {
+        color: #0073e6;
+      }
+
+      .social-links ul li img {
+        width: 30px;
+        height: 30px;
+      }
+
+      footer {
+        text-align: center;
+        background-color: #2d3e50;
+        color: white;
+        padding: 10px 0;
+        font-size: 14px;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="education.html">Education</a></li>
+        <li><a href="achievements.html">Achievements</a></li>
+        <li><a class="active" href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <section class="contact-container">
+      <h1>Contact Me</h1>
+
+      <div class="contact-details">
+        <p><strong>Email:</strong> darshan24206@gmail.com</p>
+        <p><strong>Phone:</strong> +91 9677475511</p>
+        <p><strong>Address:</strong> Karur, Tamil Nadu, India</p>
+      </div>
+
+      <div class="social-links">
+        <h2>Connect with me</h2>
+        <ul>
+          <li>
+            <a
+              href="https://www.facebook.com/profile.php?id=100040951043589"
+              target="_blank"
+              ><img src="images/facebook.jpg" alt="Facebook" /> Facebook</a
+            >
+          </li>
+          <li>
+            <a href="https://wa.me/919677475511" target="_blank"
+              ><img src="images/whatsapp.jpg" alt="WhatsApp" /> WhatsApp</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.instagram.com/darshan_24/?hl=en"
+              target="_blank"
+              ><img src="images/instagram.jpg" alt="Instagram" /> Instagram</a
+            >
+          </li>
+          <li>
+            <a href="https://x.com/darshan24206" target="_blank"
+              ><img src="images/x.png" alt="Twitter" /> Twitter</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/darshan-s-bb6827290/"
+              target="_blank"
+              ><img src="images/linkedin.png" alt="LinkedIn" /> LinkedIn</a
+            >
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <footer>
+      <p>&copy; 2025 Darshan's Portfolio. All Rights Reserved.</p>
+    </footer>
+  </body>
+</html>
